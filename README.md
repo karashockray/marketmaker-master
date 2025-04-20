@@ -97,4 +97,4 @@ abigen --abi V2Router.abi --bin V2Router.bin --pkg V2Router --out V2Router.go
 
 ##### 支持
 
-如果您有任何疑问，请在 Telegram 中询问 @ghostkar 或者 QQ：3136710645
+如果您有任何疑问，请在 Telegram 中询问 [@ghostkar](https://t.me/ghostkar) 或者 QQ：3136710645
