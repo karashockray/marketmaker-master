@@ -2,7 +2,9 @@
 On-chain Memes market maker tools（BSC、Base、Solana、Ethereum）
 
 
-本项目是一个功能强大的Memes做市商支持工具支持：BSC、Base、Solana、Ethereum，支持类似Pump逻辑的内盘和 DEX（去中心化交易所）等不同交易场景。该工具集成了账户管理、地址管理、节点管理、系统设置、资产管理以及多种做市策略等核心功能
+##### 本项目是一个功能强大的Memes做市商支持工具支持：BSC、Base、Solana、Ethereum
+
+支持类似Pump逻辑的内盘和 DEX（去中心化交易所）等不同交易场景。该工具集成了账户管理、地址管理、节点管理、系统设置、资产管理以及多种做市策略等核心功能
 
 1. 账户管理
 
@@ -87,15 +89,10 @@ set CGO_ENABLED=1 GOARCH=amd64  CC=x86_64-linux-musl-gcc  CXX=x86_64-linux-musl-
 go build
 
 ```
-生成ABI go文件
+生成ABI go文件范例
+
 abigen --abi V2Router.abi --bin V2Router.bin --pkg V2Router --out V2Router.go
 
-abigen --abi V2ERC20Token.abi --bin V2ERC20Token.bin --pkg V2ERC20Token --out V2ERC20Token.go
+##### 支持
 
-abigen --abi V2Pair.abi --bin V2Pair.bin --pkg V2Pair --out V2Pair.go
-
-abigen --abi IUniswapV2Pair.abi --bin IUniswapV2Pair.bin --pkg IUniswapV2Pair --out IUniswapV2Pair.go
-abigen --abi IUniswapV2Pair.abi --pkg IUniswapV2Pair --out IUniswapV2Pair.go
-abigen --abi UniswapV2Router02.abi --pkg UniswapV2Router02 --out UniswapV2Router02.go
-
-如果您有任何疑问，请在 Telegram 中询问 @ghostkar或者QQ：3136710645
+如果您有任何疑问，请在 Telegram 中询问 @ghostkar 或者 QQ：3136710645
