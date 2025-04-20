@@ -2,7 +2,7 @@
 On-chain Memes market maker tools（BSC、Base、Solana、Ethereum）
 
 
-##### 本项目是一个功能强大的Memes做市商支持工具支持：BSC、Base、Solana、Ethereum
+##### 本项目是一个功能强大的Memes做市商工具,支持：BSC、Base、Solana、Ethereum
 
 支持类似Pump逻辑的内盘和 DEX（去中心化交易所）等不同交易场景。该工具集成了账户管理、地址管理、节点管理、系统设置、资产管理以及多种做市策略等核心功能
 
